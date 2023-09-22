@@ -17,6 +17,7 @@ repositories {
     }
 }
 
+apply plugin: com.google.gms.googleservices.GoogleServicesPlugin
 apply plugin: com.google.firebase.crashlytics.buildtools.gradle.CrashlyticsPlugin
 android {
     buildTypes {
@@ -29,7 +30,6 @@ android {
             firebaseCrashlytics {
                 nativeSymbolUploadEnabled true
                 unstrippedNativeLibsDir "obj/local"
-                strippedNativeLibsDir "build/intermediates/jniLibs/release"
             }
         }
     }
@@ -46,5 +46,3 @@ cdvPluginPostBuildExtras.add({
         }
     }
 })
-
-
