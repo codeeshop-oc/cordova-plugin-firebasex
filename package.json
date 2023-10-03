@@ -1,5 +1,6 @@
 {
-  "name": "cordova-plugin-firebasex",
+  "name": "@codeeshop/cordova-plugin-firebasex",
+  "private": false,
   "version": "16.1.0",
   "description": "Cordova plugin for Google Firebase",
   "types": "./types/index.d.ts",
@@ -9,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dpa99c/cordova-plugin-firebase"
+    "url": "https://github.com/codeeshop-oc/cordova-plugin-firebase"
   },
   "cordova": {
     "id": "cordova-plugin-firebase",
